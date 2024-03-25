@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="search"
+        android:enabled="true"
+        android:icon="@drawable/search"
+        android:shortcutShortLabel="@string/search">
+        <intent
+            android:targetClass="it.vfsfitvnm.vimusic.MainActivity"
+            android:targetPackage="it.fast4x.rimusic.debug"
+            android:action="it.fast4x.rimusic.action.search" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="songs"
+        android:enabled="true"
+        android:icon="@drawable/disc"
+        android:shortcutShortLabel="@string/songs">
+        <intent
+            android:targetClass="it.vfsfitvnm.vimusic.MainActivity"
+            android:targetPackage="it.fast4x.rimusic.debug"
+            android:action="it.fast4x.rimusic.action.songs" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="albums"
+        android:enabled="true"
+        android:icon="@drawable/album"
+        android:shortcutShortLabel="@string/albums">
+        <intent
+            android:targetClass="it.vfsfitvnm.vimusic.MainActivity"
+            android:targetPackage="it.fast4x.rimusic.debug"
+            android:action="it.fast4x.rimusic.action.albums" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="library"
+        android:enabled="true"
+        android:icon="@drawable/library"
+        android:shortcutShortLabel="@string/library">
+        <intent
+            android:targetClass="it.vfsfitvnm.vimusic.MainActivity"
+            android:targetPackage="it.fast4x.rimusic.debug"
+            android:action="it.fast4x.rimusic.action.library" />
+    </shortcut>
+</shortcuts>

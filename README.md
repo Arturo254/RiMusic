@@ -109,4 +109,4 @@
 - Dirígete a [Crowdin](https://crowdin.com/project/rimusic/invite?h=73f0e6b64be1c64a8aebd467d286cf851925330) y ayuda con las traducciones.
 
 
-## Dev By Arturo Cervantes 亗
+## Dev By Arturo Cervantes 亗  (Fork)
